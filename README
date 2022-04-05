@@ -1,0 +1,29 @@
+NAME
+    LWP::Authen::OAuth2::ServiceProvider::Yahoo - Access Yahoo using OAuth2
+
+VERSION
+    version 0.18
+
+SYNOPSIS
+    See <https://developer.yahoo.com/oauth2/guide/"> for Yahoo's own
+    documentation.
+
+REGISTERING
+    Before you can use OAuth 2 with Yahoo you need to register yourself as
+    an app. For that, go to <https://developer.yahoo.com/apps/create/>.
+
+AUTHOR
+    Michael Stevens, "<mstevens@etla.org>"
+
+AUTHORS
+    *   Ben Tilly, <btilly at gmail.com>
+
+    *   Thomas Klausner <domm@plix.at>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2013 - 2021 by Ben Tilly, Rent.com,
+    Thomas Klausner.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
