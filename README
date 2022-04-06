@@ -3,8 +3,28 @@ NAME
     OAuth2.
 
 SYNOPSIS
+     use package LWP::Authen::OAuth2::ServiceProvider::Foo;
+
+     use base qw(LWP::Authen::OAuth2::ServiceProvider::MediaWiki);
+     use strict;
+     use warnings;
+
+     sub authorization_endpoint {
+             return 'https://example.com/oauth2/authorize';
+     }
+
+     sub token_endpoint {
+             return 'https://example.com/oauth2/access_token';
+     }
+
+     1;
+
+DESCRIPTION
     See <https://www.mediawiki.org/wiki/Extension:OAuth> for MediaWiki
     extension documentation.
+
+    Real implementation is LWP::Authen::OAuth2::ServiceProvider::Wikimedia
+    for Wikimedia meta OAuth2.
 
 REPOSITORY
     <https://github.com/michal-josef-spacek/LWP-Authen-OAuth2-ServiceProvide

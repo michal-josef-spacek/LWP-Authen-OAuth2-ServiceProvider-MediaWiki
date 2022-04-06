@@ -71,7 +71,28 @@ LWP::Authen::OAuth2::ServiceProvider::MediaWiki - Access MediaWiki using OAuth2.
 
 =head1 SYNOPSIS
 
+ use package LWP::Authen::OAuth2::ServiceProvider::Foo;
+
+ use base qw(LWP::Authen::OAuth2::ServiceProvider::MediaWiki);
+ use strict;
+ use warnings;
+
+ sub authorization_endpoint {
+         return 'https://example.com/oauth2/authorize';
+ }
+
+ sub token_endpoint {
+         return 'https://example.com/oauth2/access_token';
+ }
+
+ 1;
+
+=head1 DESCRIPTION
+
 See L<https://www.mediawiki.org/wiki/Extension:OAuth> for MediaWiki extension documentation.
+
+Real implementation is LWP::Authen::OAuth2::ServiceProvider::Wikimedia for
+Wikimedia meta OAuth2.
 
 =head1 REPOSITORY
 
