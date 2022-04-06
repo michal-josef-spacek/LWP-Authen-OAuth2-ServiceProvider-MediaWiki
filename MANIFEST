@@ -17,6 +17,7 @@ MANIFEST			This list of files
 MediaWiki.pm
 META.yml
 README
+SIGNATURE
 t/LWP-Authen-OAuth2-ServiceProvider-MediaWiki/01-use.t
 t/LWP-Authen-OAuth2-ServiceProvider-MediaWiki/02-version.t
 t/LWP-Authen-OAuth2-ServiceProvider-MediaWiki/03-new.t
