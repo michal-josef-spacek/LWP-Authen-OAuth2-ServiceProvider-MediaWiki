@@ -6,7 +6,7 @@ use warnings;
 
 use Error::Pure qw(err);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub authorization_endpoint {
 	err 'Need to be implemented. End point /oauth2/authorize.';
@@ -138,6 +138,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
