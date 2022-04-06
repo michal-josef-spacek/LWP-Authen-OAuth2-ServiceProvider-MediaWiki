@@ -1,29 +1,25 @@
 NAME
-    LWP::Authen::OAuth2::ServiceProvider::Yahoo - Access Yahoo using OAuth2
-
-VERSION
-    version 0.18
+    LWP::Authen::OAuth2::ServiceProvider::MediaWiki - Access MediaWiki using
+    OAuth2.
 
 SYNOPSIS
-    See <https://developer.yahoo.com/oauth2/guide/"> for Yahoo's own
-    documentation.
+    See <https://www.mediawiki.org/wiki/Extension:OAuth> for MediaWiki
+    extension documentation.
 
-REGISTERING
-    Before you can use OAuth 2 with Yahoo you need to register yourself as
-    an app. For that, go to <https://developer.yahoo.com/apps/create/>.
+REPOSITORY
+    <https://github.com/michal-josef-spacek/LWP-Authen-OAuth2-ServiceProvide
+    r-MediaWiki>
 
 AUTHOR
-    Michael Stevens, "<mstevens@etla.org>"
+    Michal Josef Špaček <mailto:skim@cpan.org>
 
-AUTHORS
-    *   Ben Tilly, <btilly at gmail.com>
+    <http://skim.cz>
 
-    *   Thomas Klausner <domm@plix.at>
+LICENSE AND COPYRIGHT
+    © Michal Josef Špaček 2013-2021
 
-COPYRIGHT AND LICENSE
-    This software is copyright (c) 2013 - 2021 by Ben Tilly, Rent.com,
-    Thomas Klausner.
+    BSD 2-Clause License
 
-    This is free software; you can redistribute it and/or modify it under
-    the same terms as the Perl 5 programming language system itself.
+VERSION
+    0.01
 
