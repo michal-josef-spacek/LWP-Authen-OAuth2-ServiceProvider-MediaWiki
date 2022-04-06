@@ -91,6 +91,9 @@ LWP::Authen::OAuth2::ServiceProvider::MediaWiki - Access MediaWiki using OAuth2.
 
 See L<https://www.mediawiki.org/wiki/Extension:OAuth> for MediaWiki extension documentation.
 
+See L<https://www.mediawiki.org/wiki/OAuth/For_Developers> page which is for
+developers.
+
 Real implementation is LWP::Authen::OAuth2::ServiceProvider::Wikimedia for
 Wikimedia meta OAuth2.
 
