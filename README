@@ -29,6 +29,19 @@ DESCRIPTION
     Real implementation is LWP::Authen::OAuth2::ServiceProvider::Wikimedia
     for Wikimedia meta OAuth2.
 
+DEPENDENCIES
+    Error::Pure, LWP::Authen::OAuth2::ServiceProvider.
+
+SEE ALSO
+    LWP::Authen::OAuth2
+        Make requests to OAuth2 APIs.
+
+    LWP::Authen::OAuth2::ServiceProvider
+        ServiceProvider base class
+
+    LWP::Authen::OAuth2::ServiceProvider::Wikimedia
+        Access Wikimedia using OAuth2.
+
 REPOSITORY
     <https://github.com/michal-josef-spacek/LWP-Authen-OAuth2-ServiceProvide
     r-MediaWiki>
